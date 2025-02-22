@@ -169,12 +169,6 @@ const gamesData = {
         image: "https://mathsframe.github.io/alllogo/awesometanks2/logo.jpg",
       },
       {
-        title: "2 3 4 Player Games",
-        url: "/games/2-3-4-player-games.html",
-        image:
-          "https://mathsframe.github.io/alllogo/2-3-4-player-games/logo.png",
-      },
-      {
         title: "Bejeweled",
         url: "/games/bejeweled.html",
         image: "https://mathsframe.github.io/alllogo/bejeweled/logo.jpg",
@@ -543,6 +537,35 @@ const gamesData = {
         url: "/games/rooftop-snipers.html",
         image:
           "https://mathsframe.github.io/alllogo/1hls/rooftop-snipers/logo.png",
+      },
+      {
+        title: "Skibiti Toilet Attack",
+        url: "/games/skibiti-toilet-attack.html",
+        image:
+          "https://mathsframe.github.io/alllogo/1hls/skibiti-toilet-attack/logo.png",
+      },
+      {
+        title: "Smash Karts",
+        url: "/games/smash-karts.html",
+        image: "https://mathsframe.github.io/alllogo/1hls/smash-karts/logo.png",
+      },
+      {
+        title: "Time Shooter 2",
+        url: "/games/time-shooter-2.html",
+        image:
+          "https://mathsframe.github.io/alllogo/1hls/time-shooter-2/logo.jpg",
+      },
+      {
+        title: "Time Shooter 3",
+        url: "/games/time-shooter-3.html",
+        image:
+          "https://mathsframe.github.io/alllogo/1hls/time-shooter-3/logo.jfif",
+      },
+      {
+        title: "Tiny Fishing",
+        url: "/games/tiny-fishing.html",
+        image:
+          "https://mathsframe.github.io/alllogo/1hls/tiny-fishing/logo.png",
       },
     ];
   },
