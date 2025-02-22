@@ -512,7 +512,7 @@ function displayRandomGames() {
       .map(
         (game) => `
       <div class="uk-grid-game">
-        <a class="uk-game-link" href="../games/${game.url}">
+        <a class="uk-game-link" href="${game.url}">
           <div class="uk-wrap-image">
             <img
               width="95"
