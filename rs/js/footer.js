@@ -178,7 +178,7 @@ function liveSearch(query) {
   if (results.length === 0) {
     dropdown.innerHTML = `
             <div class="no-results">
-                Không tìm thấy kết quả cho "${query}"
+                No results found for "${query}"
             </div>
         `;
     return;
