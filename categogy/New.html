@@ -34,6 +34,17 @@
             <div class="bar-logo">
               <a class="logo-text" href="/">MathsFrame</a>
             </div>
+            <div class="search-box">
+              <div class="search-container">
+                <input
+                  type="text"
+                  id="searchInput"
+                  placeholder="Search games..."
+                  onkeyup="liveSearch(this.value)"
+                />
+                <div id="searchDropdown" class="search-dropdown"></div>
+              </div>
+            </div>
             <nav class="navigation">
               <ul>
                 <li>
@@ -98,55 +109,6 @@
       <div class="container">
         <div class="row">
           <div class="uk-grid-clayover">
-            <div class="uk-grid-game">
-              <a class="uk-game-link" href="../games/10-minutes-till-dawn.html">
-                <div class="uk-wrap-image">
-                  <img
-                    width="95"
-                    height="95"
-                    src="https://hva2021.github.io/10-minutes-till-dawn/icons/icon-128.png"
-                    title="10 minutes till dawn"
-                    alt="10 minutes till dawn"
-                  />
-                  <span class="text-overflow uk-game-title"
-                    >10 minutes till dawn</span
-                  >
-                  <span class="sticker new"></span>
-                </div>
-              </a>
-            </div>
-            <div class="uk-grid-game">
-              <a class="uk-game-link" href="../games/2-3-4-player-games.html">
-                <div class="uk-wrap-image">
-                  <img
-                    width="95"
-                    height="95"
-                    src="https://hva2021.github.io/2-3-4-player-games/logo.png"
-                    title="2 3 4 player games"
-                    alt="2 3 4 player games"
-                  />
-                  <span class="text-overflow uk-game-title"
-                    >2 3 4 player games</span
-                  >
-                  <span class="sticker new"></span>
-                </div>
-              </a>
-            </div>
-            <div class="uk-grid-game">
-              <a class="uk-game-link" href="../games/DogeMiner.html">
-                <div class="uk-wrap-image">
-                  <img
-                    width="95"
-                    height="95"
-                    src="https://hva2021.github.io/DogeMiner/img/dogeminer_300x300.png"
-                    title="DogeMiner"
-                    alt="DogeMiner"
-                  />
-                  <span class="text-overflow uk-game-title">DogeMiner</span>
-                  <span class="sticker new"></span>
-                </div>
-              </a>
-            </div>
             <div class="uk-grid-game">
               <a class="uk-game-link" href="../games/bejeweled.html">
                 <div class="uk-wrap-image">
@@ -508,6 +470,7 @@
     <!--END GAME PLAY-->
     <footer>
       <script src="/rs/js/jquery-3.4.1.min.js"></script>
+      <script src="/rs/js/games-data.js"></script>
       <script src="/rs/js/footer.js"></script>
     </footer>
   </body>

@@ -24,15 +24,15 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7K5VHZH3CP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5S8GNLGG5C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'G-7K5VHZH3CP');
-    </script>
+    gtag('config', 'G-5S8GNLGG5C');
+  </script>
   </head>
 
   <body>
@@ -43,6 +43,12 @@
           <div class="p-r d-flex sp al header-bar">
             <div class="bar-logo">
               <a class="logo-text" href="/">MathsFrame</a>
+            </div>
+            <div class="search-box">
+              <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search games..." onkeyup="liveSearch(this.value)">
+                <div id="searchDropdown" class="search-dropdown"></div>
+              </div>
             </div>
             <nav class="navigation">
               <ul>
@@ -1108,12 +1114,12 @@
             <nav class="navigation">
               <ul>
                 <li>
-                  <a class="menu-link" href="./index.html">
+                  <a class="menu-link" href="./privacy.html">
                     <span class="text-menu-link">Privacy</span>
                   </a>
                 </li>
                 <li>
-                  <a class="menu-link" href="./index.html">
+                  <a class="menu-link" href="./termsofuse.html">
                     <span class="text-menu-link">Terms of use</span>
                   </a>
                 </li>
@@ -1127,6 +1133,7 @@
           </div>
         </div>
       </div>
+      <script src="rs/js/games-data.js"></script>
       <script src="rs/js/jquery-3.4.1.min.js"></script>
       <script src="rs/js/footer.js"></script>
     </footer>

@@ -34,6 +34,17 @@
             <div class="bar-logo">
               <a class="logo-text" href="/">MathsFrame</a>
             </div>
+            <div class="search-box">
+              <div class="search-container">
+                <input
+                  type="text"
+                  id="searchInput"
+                  placeholder="Search games..."
+                  onkeyup="liveSearch(this.value)"
+                />
+                <div id="searchDropdown" class="search-dropdown"></div>
+              </div>
+            </div>
             <nav class="navigation">
               <ul>
                 <li>
@@ -588,6 +599,7 @@
     <!--END GAME PLAY-->
     <footer>
       <script src="/rs/js/jquery-3.4.1.min.js"></script>
+      <script src="/rs/js/games-data.js"></script>
       <script src="/rs/js/footer.js"></script>
     </footer>
   </body>
