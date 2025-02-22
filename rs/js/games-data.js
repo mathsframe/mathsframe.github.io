@@ -2,6 +2,16 @@ const gamesData = {
   getAll: function () {
     return [
       {
+        title: "2048",
+        url: "/games/2048.html",
+        image: "https://mathsframe.github.io/alllogo/2048/logo.png",
+      },
+      {
+        title: "247 Solitaire",
+        url: "/games/247-solitaire.html",
+        image: "https://mathsframe.github.io/alllogo/247-solitaire/logo.png",
+      },
+      {
         title: "adventure drivers",
         url: "/games/adventure-drivers.html",
         image:
@@ -495,6 +505,44 @@ const gamesData = {
         url: "/games/moto-x3m-pool-party.html",
         image:
           "https://mathsframe.github.io/alllogo/1hls/moto-x3m-pool-party/logo.png",
+      },
+      {
+        title: "Bear on a Scooter",
+        url: "/games/bearonascooter.html",
+        image: "https://mathsframe.github.io/alllogo/bearonascooter/logo.png",
+      },
+      {
+        title: "Block the Pig",
+        url: "/games/block-the-pig.html",
+        image: "https://mathsframe.github.io/alllogo/block-the-pig/logo.png",
+      },
+      {
+        title: "Bounce Ball Unblocked",
+        url: "/games/bounce-ball-unblocked.html",
+        image:
+          "https://mathsframe.github.io/alllogo/bounce-ball-unblocked/logo.png",
+      },
+      {
+        title: "DeathCar.io",
+        url: "/games/deathcario.html",
+        image: "https://mathsframe.github.io/alllogo/deathcario/logo.png",
+      },
+      {
+        title: "Drift Boss",
+        url: "/games/drift-boss.html",
+        image: "https://mathsframe.github.io/alllogo/drift-boss/logo.png",
+      },
+      {
+        title: "Rocket League",
+        url: "/games/rocket-league.html",
+        image:
+          "https://mathsframe.github.io/alllogo/1hls/rocket-league/logo.webp",
+      },
+      {
+        title: "Rooftop Snipers",
+        url: "/games/rooftop-snipers.html",
+        image:
+          "https://mathsframe.github.io/alllogo/1hls/rooftop-snipers/logo.png",
       },
     ];
   },
