@@ -1279,3 +1279,24 @@ search-container {
   text-align: center;
   color: #666;
 }
+
+.game-history {
+  margin: 20px 0;
+  padding: 15px;
+  background: #0070e0;
+  border-radius: 8px;
+}
+
+.last-played {
+  font-size: 12px;
+  color: #666;
+  display: block;
+  margin-top: 4px;
+}
+
+.game-history-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
