@@ -579,6 +579,56 @@ const relatedGames = [
     url: "/games/geodash.html",
     image: "https://mathsframe.github.io/alllogo/geodash/logo.png",
   },
+  {
+    title: "Billionaires",
+    url: "/games/billionaires.html",
+    image: "../games/Quiz/billionaires/logo.png",
+  },
+  {
+    title: "Brain Challenge",
+    url: "/games/brain-challenge.html",
+    image: "../games/Quiz/brain-challenge/logo.png",
+  },
+  {
+    title: "Brain IQ Test",
+    url: "/games/brain-iq-test-minecraft-quiz.html",
+    image: "../games/Quiz/brain-iq-test-minecraft-quiz/logo.png",
+  },
+  {
+    title: "Fantasy Math Number",
+    url: "/games/fantasy-math-number.html",
+    image: "../games/Quiz/fantasy-math-number/logo.png",
+  },
+  {
+    title: "Find the Missing Part",
+    url: "/games/find-the-missing-part.html",
+    image: "../games/Quiz/find-the-missing-part/logo.png",
+  },
+  {
+    title: "Guess Their Answer",
+    url: "/games/guess-their-answer.html",
+    image: "../games/Quiz/guess-their-answer/logo.png",
+  },
+  {
+    title: "Pumpkin Patch",
+    url: "/games/pumpkin-patch.html",
+    image: "../games/Quiz/pumpkin-patch/logo.png",
+  },
+  {
+    title: "Quest by Country",
+    url: "/games/quest-by-country.html",
+    image: "../games/Quiz/quest-by-country/logo.png",
+  },
+  {
+    title: "Sprunki Memory Card Match",
+    url: "/games/sprunki-memory-card-match.html",
+    image: "../games/Quiz/sprunki-memory-card-match/logo.png",
+  },
+  {
+    title: "Words with Owl",
+    url: "/games/words-with-owl-1.html",
+    image: "../games/Quiz/words-with-owl-1/logo.png",
+  },
 
   // Thêm các game khác vào đây...
 ];
