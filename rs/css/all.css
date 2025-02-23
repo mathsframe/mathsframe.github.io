@@ -1279,3 +1279,61 @@ search-container {
   text-align: center;
   color: #666;
 }
+/* Style cho menu dropdown */
+.nav-item.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #003d78; /* Màu nền giống menu chính */
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #0077e9; /* Border giống style chung */
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+.dropdown-menu li {
+  padding: 0;
+  border-bottom: 1px solid #0077e9; /* Đường kẻ phân cách giống style chung */
+}
+.dropdown-menu li:last-child {
+  border-bottom: none; /* Bỏ border cho item cuối */
+}
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff; /* Màu chữ trắng giống menu chính */
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 700; /* Font đậm giống style chung */
+  text-transform: capitalize; /* Viết hoa chữ cái đầu */
+}
+.dropdown-menu a:hover {
+  background: #00305e; /* Màu nền khi hover */
+  color: #fdfe03; /* Màu vàng khi hover giống style chung */
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.arrow-down {
+  display: inline-block;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff; /* Màu mũi tên trắng */
+  transition: transform 0.3s ease;
+}
+.nav-item.dropdown:hover .arrow-down {
+  transform: rotate(180deg);
+  border-top-color: #fdfe03; /* Màu mũi tên vàng khi hover */
+}

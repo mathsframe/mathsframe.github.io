@@ -549,6 +549,36 @@ const relatedGames = [
     url: "/games/tiny-fishing.html",
     image: "https://mathsframe.github.io/alllogo/1hls/tiny-fishing/logo.png",
   },
+  {
+    title: "Tunnel Rush",
+    url: "/games/tunnel-rush.html",
+    image: "https://mathsframe.github.io/alllogo/1hls/tunnel-rush/logo.jpg",
+  },
+  {
+    title: "Vex 3",
+    url: "/games/vex3.html",
+    image: "https://mathsframe.github.io/alllogo/1hls/vex3/logo.png",
+  },
+  {
+    title: "Vex 4",
+    url: "/games/vex4.html",
+    image: "https://mathsframe.github.io/alllogo/1hls/vex4/logo.jpeg",
+  },
+  {
+    title: "Run 3",
+    url: "/games/run-3.html",
+    image: "https://mathsframe.github.io/alllogo/1hls/run-3/logo.jpeg",
+  },
+  {
+    title: "Jetpack",
+    url: "/games/jetpack.html",
+    image: "https://mathsframe.github.io/alllogo/jetpack/logo.jfif",
+  },
+  {
+    title: "GeoDash",
+    url: "/games/geodash.html",
+    image: "https://mathsframe.github.io/alllogo/geodash/logo.png",
+  },
 
   // Thêm các game khác vào đây...
 ];
