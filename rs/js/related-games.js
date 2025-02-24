@@ -629,6 +629,31 @@ const relatedGames = [
     url: "/games/words-with-owl-1.html",
     image: "../games/Quiz/words-with-owl-1/logo.png",
   },
+  {
+    title: "Cartoon Moto Stunt",
+    url: "/games/cartoon-moto-stunt.html",
+    image: "../games/Moto/cartoon-moto-stunt/logo.png",
+  },
+  {
+    title: "Motor Tour",
+    url: "/games/motor-tour.html",
+    image: "../games/Moto/motor-tour/logo.png",
+  },
+  {
+    title: "Stunt Bike Rider Bros",
+    url: "/games/stunt-bike-rider-bros.html",
+    image: "../games/Moto/stunt-bike-rider-bros/logo.png",
+  },
+  {
+    title: "Vex X3M",
+    url: "/games/vex-x3m.html",
+    image: "../games/Moto/vex-x3m/logo.png",
+  },
+  {
+    title: "Vex X3M 2",
+    url: "/games/vex-x3m-2.html",
+    image: "../games/Moto/vex-x3m-2/logo.png",
+  },
 
   // Thêm các game khác vào đây...
 ];
